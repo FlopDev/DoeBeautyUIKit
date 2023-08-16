@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		CB8452902A5F573800D78D29 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB84528F2A5F573800D78D29 /* MainPageViewController.swift */; };
 		CB8452922A5F6A3500D78D29 /* HamburgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8452912A5F6A3500D78D29 /* HamburgerViewController.swift */; };
+		CBC574E12A8D0E5A00F18DF2 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC574E02A8D0E5900F18DF2 /* AboutMeViewController.swift */; };
+		CBC574E32A8D131F00F18DF2 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC574E22A8D131F00F18DF2 /* GalleryViewController.swift */; };
 		CBD6E7A62A54529300C3C602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD6E7A52A54529300C3C602 /* AppDelegate.swift */; };
 		CBD6E7A82A54529300C3C602 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD6E7A72A54529300C3C602 /* SceneDelegate.swift */; };
 		CBD6E7AD2A54529300C3C602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD6E7AB2A54529300C3C602 /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 /* Begin PBXFileReference section */
 		CB84528F2A5F573800D78D29 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		CB8452912A5F6A3500D78D29 /* HamburgerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerViewController.swift; sourceTree = "<group>"; };
+		CBC574E02A8D0E5900F18DF2 /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		CBC574E22A8D131F00F18DF2 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		CBD6E7A22A54529300C3C602 /* DoeBeauty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoeBeauty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD6E7A52A54529300C3C602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBD6E7A72A54529300C3C602 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +154,8 @@
 			children = (
 				CB84528F2A5F573800D78D29 /* MainPageViewController.swift */,
 				CB8452912A5F6A3500D78D29 /* HamburgerViewController.swift */,
+				CBC574E02A8D0E5900F18DF2 /* AboutMeViewController.swift */,
+				CBC574E22A8D131F00F18DF2 /* GalleryViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -297,9 +303,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB8452902A5F573800D78D29 /* MainPageViewController.swift in Sources */,
+				CBC574E32A8D131F00F18DF2 /* GalleryViewController.swift in Sources */,
 				CBD6E7B02A54529300C3C602 /* DoeBeauty.xcdatamodeld in Sources */,
 				CBD6E7A62A54529300C3C602 /* AppDelegate.swift in Sources */,
 				CB8452922A5F6A3500D78D29 /* HamburgerViewController.swift in Sources */,
+				CBC574E12A8D0E5A00F18DF2 /* AboutMeViewController.swift in Sources */,
 				CBD6E7A82A54529300C3C602 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

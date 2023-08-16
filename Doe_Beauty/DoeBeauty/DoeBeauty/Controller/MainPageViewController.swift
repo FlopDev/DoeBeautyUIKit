@@ -11,6 +11,7 @@ class MainPageViewController: UIViewController {
     
     @IBOutlet weak var leadingHamburgerView: NSLayoutConstraint!
     @IBOutlet weak var backViewHamburgerView: UIView!
+    var swipeGestureRecognizer: UISwipeGestureRecognizer!
     
     @IBOutlet weak var hamburgerView: UIView!
     override func viewDidLoad() {
