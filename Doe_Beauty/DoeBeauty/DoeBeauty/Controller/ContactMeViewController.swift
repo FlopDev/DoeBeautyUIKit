@@ -12,7 +12,7 @@ class ContactMeViewController: UIViewController, MFMailComposeViewControllerDele
 
 
         @IBAction func openInstagramPage(_ sender: UIButton) {
-            if let instagramURL = URL(string: "https://www.instagram.com/doe_bty/") {
+            if let instagramURL = URL(string: "https://www.instagram.com/doe_bty") {
                 if UIApplication.shared.canOpenURL(instagramURL) {
                     UIApplication.shared.open(instagramURL, options: [:], completionHandler: nil)
                 } else {
