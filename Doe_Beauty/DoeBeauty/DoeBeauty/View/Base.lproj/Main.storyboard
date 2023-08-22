@@ -352,14 +352,14 @@ Que vous vouliez des ongles à capsule, ou un travail sur vos vrais ongles, je p
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNV-YS-mu4">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNV-YS-mu4">
                                 <rect key="frame" x="207" y="234" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="Gkr-aZ-chN"/>
                                     <constraint firstAttribute="height" constant="60" id="KOJ-hp-tRj"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="insta"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="insta"/>
                                 <connections>
                                     <action selector="openInstagramPage:" destination="TtS-Ac-w6I" eventType="touchUpInside" id="D3q-hF-uL8"/>
                                 </connections>
@@ -442,10 +442,10 @@ Que vous vouliez des ongles à capsule, ou un travail sur vos vrais ongles, je p
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRK-Hv-Etw">
-                                <rect key="frame" x="16" y="170" width="124" height="35"/>
+                                <rect key="frame" x="16" y="170" width="65.333333333333329" height="35"/>
                                 <color key="tintColor" red="0.90146869419999998" green="0.85164284710000004" blue="0.78831416369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Rendez-vous"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Tarifs"/>
                                 <connections>
                                     <segue destination="YYq-Yf-bZd" kind="show" id="GO8-qn-RZZ"/>
                                 </connections>
