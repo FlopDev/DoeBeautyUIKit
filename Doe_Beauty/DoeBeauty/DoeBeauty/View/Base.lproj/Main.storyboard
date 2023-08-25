@@ -170,32 +170,30 @@ Que vous vouliez des ongles à capsule, ou un travail sur vos vrais ongles, je p
                         <rect key="frame" x="0.0" y="0.0" width="297" height="739"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dKV-rM-X4f">
-                                <rect key="frame" x="28" y="113" width="240" height="593"/>
-                                <viewLayoutGuide key="contentLayoutGuide" id="BlB-N9-LXP"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="ZpO-2T-4kU"/>
-                            </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doe Beauty" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbI-yG-0qY">
                                 <rect key="frame" x="88" y="34" width="121" height="44"/>
                                 <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="37"/>
                                 <color key="textColor" red="0.19195035099999999" green="0.11312877389999999" blue="0.16075500849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="i5o-31-Rij">
+                                <rect key="frame" x="28" y="192.66666666666663" width="241" height="354"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5bH-rj-sre"/>
                         <color key="backgroundColor" red="0.90146869419999998" green="0.85164284710000004" blue="0.78831416369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="dKV-rM-X4f" firstAttribute="centerX" secondItem="ENG-84-hdq" secondAttribute="centerX" id="1cx-aQ-vpt"/>
+                            <constraint firstItem="i5o-31-Rij" firstAttribute="leading" secondItem="5bH-rj-sre" secondAttribute="leading" constant="28" id="1xn-zR-4VL"/>
                             <constraint firstItem="vbI-yG-0qY" firstAttribute="centerX" secondItem="ENG-84-hdq" secondAttribute="centerX" id="BTT-qd-AF4"/>
-                            <constraint firstItem="dKV-rM-X4f" firstAttribute="leading" secondItem="5bH-rj-sre" secondAttribute="leading" constant="28" id="PU4-fM-YKg"/>
+                            <constraint firstItem="i5o-31-Rij" firstAttribute="centerX" secondItem="ENG-84-hdq" secondAttribute="centerX" id="F26-Qv-Wpi"/>
+                            <constraint firstItem="i5o-31-Rij" firstAttribute="height" secondItem="ENG-84-hdq" secondAttribute="height" multiplier="0.479026" id="N6D-zX-eng"/>
+                            <constraint firstItem="i5o-31-Rij" firstAttribute="centerY" secondItem="ENG-84-hdq" secondAttribute="centerY" id="TMu-Hd-ymR"/>
                             <constraint firstItem="vbI-yG-0qY" firstAttribute="top" secondItem="5bH-rj-sre" secondAttribute="top" constant="34" id="dTd-VX-4C0"/>
-                            <constraint firstItem="dKV-rM-X4f" firstAttribute="top" secondItem="vbI-yG-0qY" secondAttribute="bottom" constant="35" id="hQa-bs-cfJ"/>
-                            <constraint firstItem="5bH-rj-sre" firstAttribute="bottom" secondItem="dKV-rM-X4f" secondAttribute="bottom" constant="33" id="vM4-3Y-YAA"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="v7a-Bd-LWs"/>
                     <connections>
-                        <outlet property="scrollView" destination="dKV-rM-X4f" id="zZQ-jF-3wv"/>
+                        <outlet property="imageView" destination="i5o-31-Rij" id="7UQ-Va-E33"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xNh-hE-Fyj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
