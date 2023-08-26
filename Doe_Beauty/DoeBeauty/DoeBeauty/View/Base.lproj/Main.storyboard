@@ -36,8 +36,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doe Beauty" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LBu-tc-Ec2">
-                                        <rect key="frame" x="136" y="110" width="121" height="44"/>
-                                        <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="37"/>
+                                        <rect key="frame" x="129.66666666666669" y="110" width="133.66666666666669" height="49"/>
+                                        <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="41"/>
                                         <color key="textColor" red="0.19195035099999999" green="0.11312877389999999" blue="0.16075500849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -171,12 +171,12 @@ Que vous vouliez des ongles à capsule, ou un travail sur vos vrais ongles, je p
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doe Beauty" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbI-yG-0qY">
-                                <rect key="frame" x="88" y="34" width="121" height="44"/>
-                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="37"/>
+                                <rect key="frame" x="81.666666666666671" y="34" width="133.66666666666663" height="49"/>
+                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="41"/>
                                 <color key="textColor" red="0.19195035099999999" green="0.11312877389999999" blue="0.16075500849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="i5o-31-Rij">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="i5o-31-Rij">
                                 <rect key="frame" x="28" y="192.66666666666663" width="241" height="354"/>
                             </imageView>
                         </subviews>
@@ -209,8 +209,8 @@ Que vous vouliez des ongles à capsule, ou un travail sur vos vrais ongles, je p
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doe Beauty" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="feg-Rx-zaC">
-                                <rect key="frame" x="88.333333333333314" y="35" width="120.66666666666669" height="44"/>
-                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="37"/>
+                                <rect key="frame" x="81.666666666666671" y="35" width="133.66666666666663" height="49"/>
+                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="41"/>
                                 <color key="textColor" red="0.19195035099999999" green="0.11312877389999999" blue="0.16075500849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -339,71 +339,81 @@ Que vous vouliez des ongles à capsule, ou un travail sur vos vrais ongles, je p
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doe Beauty" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UBe-gM-KKJ">
-                                <rect key="frame" x="88.333333333333314" y="35" width="120.66666666666669" height="44"/>
-                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="37"/>
+                                <rect key="frame" x="81.666666666666671" y="35" width="133.66666666666663" height="49"/>
+                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="41"/>
                                 <color key="textColor" red="0.19195035099999999" green="0.11312877389999999" blue="0.16075500849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pour me contacter :" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPj-yF-fLT">
-                                <rect key="frame" x="16" y="104" width="149.66666666666666" height="20.333333333333329"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="16" y="234.33333333333334" width="149.66666666666666" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.23519515990000001" green="0.1678184569" blue="0.2313264012" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNV-YS-mu4">
-                                <rect key="frame" x="207" y="234" width="60" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="Gkr-aZ-chN"/>
-                                    <constraint firstAttribute="height" constant="60" id="KOJ-hp-tRj"/>
-                                </constraints>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" image="insta"/>
-                                <connections>
-                                    <action selector="openInstagramPage:" destination="TtS-Ac-w6I" eventType="touchUpInside" id="D3q-hF-uL8"/>
-                                </connections>
-                            </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="Scy-nL-EBV">
-                                <rect key="frame" x="3" y="433" width="291" height="34.333333333333314"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="1mJ-w9-q0p">
+                                <rect key="frame" x="5" y="287.33333333333331" width="287" height="164.33333333333331"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Par email :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pH-Sy-gQF">
-                                        <rect key="frame" x="0.0" y="0.0" width="63" height="34.333333333333336"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyE-8P-QfB">
-                                        <rect key="frame" x="63.666666666666671" y="0.0" width="227.33333333333331" height="34.333333333333336"/>
-                                        <color key="tintColor" systemColor="linkColor"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="doebeauty.pro@gmail.com"/>
-                                        <connections>
-                                            <action selector="openMailCompose:" destination="TtS-Ac-w6I" eventType="touchUpInside" id="FXN-sY-UxH"/>
-                                        </connections>
-                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="Stp-e0-UBz">
+                                        <rect key="frame" x="56.333333333333329" y="0.0" width="174.33333333333337" height="60"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Par Instagram :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SgA-2D-zg0">
+                                                <rect key="frame" x="0.0" y="22.333333333333371" width="91.333333333333329" height="15.666666666666664"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <color key="textColor" red="0.23519515990000001" green="0.1678184569" blue="0.2313264012" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNV-YS-mu4">
+                                                <rect key="frame" x="114.33333333333331" y="0.0" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="9kp-fL-Cbe"/>
+                                                    <constraint firstAttribute="width" constant="60" id="RL0-cP-W0z"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="insta">
+                                                    <color key="titleColor" systemColor="tintColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="openInstagramPage:" destination="TtS-Ac-w6I" eventType="touchUpInside" id="D3q-hF-uL8"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="tintColor" systemColor="tintColor"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="Scy-nL-EBV">
+                                        <rect key="frame" x="10" y="130" width="267.33333333333331" height="34.333333333333343"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pH-Sy-gQF">
+                                                <rect key="frame" x="0.0" y="0.0" width="40" height="34.333333333333336"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <color key="textColor" red="0.23519515990000001" green="0.1678184569" blue="0.2313264012" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyE-8P-QfB">
+                                                <rect key="frame" x="40.000000000000014" y="0.0" width="227.33333333333337" height="34.333333333333336"/>
+                                                <color key="tintColor" systemColor="linkColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="doebeauty.pro@gmail.com"/>
+                                                <connections>
+                                                    <action selector="openMailCompose:" destination="TtS-Ac-w6I" eventType="touchUpInside" id="FXN-sY-UxH"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
+                                <color key="tintColor" systemColor="tintColor"/>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Par Instagram :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SgA-2D-zg0">
-                                <rect key="frame" x="3" y="234" width="92" height="15.666666666666657"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="89N-9v-rV4"/>
                         <color key="backgroundColor" red="0.90146869419999998" green="0.85164284710000004" blue="0.78831416369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="SgA-2D-zg0" firstAttribute="leading" secondItem="89N-9v-rV4" secondAttribute="leading" constant="3" id="2fc-Mq-cZZ"/>
-                            <constraint firstItem="NNV-YS-mu4" firstAttribute="top" secondItem="89N-9v-rV4" secondAttribute="top" constant="234" id="6l8-lM-8Yv"/>
                             <constraint firstItem="QPj-yF-fLT" firstAttribute="leading" secondItem="89N-9v-rV4" secondAttribute="leading" constant="16" id="8d7-zy-yXO"/>
-                            <constraint firstItem="89N-9v-rV4" firstAttribute="trailing" secondItem="Scy-nL-EBV" secondAttribute="trailing" constant="3" id="BB1-Hj-26M"/>
-                            <constraint firstItem="89N-9v-rV4" firstAttribute="bottom" secondItem="Scy-nL-EBV" secondAttribute="bottom" constant="271.66666666666669" id="Fhh-Fa-3aE"/>
                             <constraint firstItem="UBe-gM-KKJ" firstAttribute="top" secondItem="89N-9v-rV4" secondAttribute="top" constant="35" id="GMD-nJ-53R"/>
+                            <constraint firstItem="1mJ-w9-q0p" firstAttribute="leading" secondItem="89N-9v-rV4" secondAttribute="leading" constant="5" id="HgH-8A-nXs"/>
                             <constraint firstItem="QPj-yF-fLT" firstAttribute="width" secondItem="XRz-lR-5wf" secondAttribute="width" multiplier="0.503928" id="KXS-P4-hyx"/>
-                            <constraint firstItem="SgA-2D-zg0" firstAttribute="centerX" secondItem="XRz-lR-5wf" secondAttribute="centerX" constant="-99.5" id="UEz-K7-wfr"/>
-                            <constraint firstItem="89N-9v-rV4" firstAttribute="trailing" secondItem="NNV-YS-mu4" secondAttribute="trailing" constant="30" id="Zks-5r-dFe"/>
-                            <constraint firstItem="NNV-YS-mu4" firstAttribute="top" secondItem="SgA-2D-zg0" secondAttribute="top" id="iPl-N2-rMY"/>
-                            <constraint firstItem="QPj-yF-fLT" firstAttribute="top" secondItem="UBe-gM-KKJ" secondAttribute="bottom" constant="25" id="moN-lx-Mn4"/>
-                            <constraint firstItem="Scy-nL-EBV" firstAttribute="leading" secondItem="89N-9v-rV4" secondAttribute="leading" constant="3" id="ufo-Ir-ATG"/>
+                            <constraint firstItem="1mJ-w9-q0p" firstAttribute="centerX" secondItem="XRz-lR-5wf" secondAttribute="centerX" id="N08-Qt-U4B"/>
+                            <constraint firstItem="1mJ-w9-q0p" firstAttribute="top" secondItem="QPj-yF-fLT" secondAttribute="bottom" constant="35" id="Pkh-iB-LwU"/>
+                            <constraint firstItem="89N-9v-rV4" firstAttribute="trailing" secondItem="1mJ-w9-q0p" secondAttribute="trailing" constant="5" id="SgW-vt-uCE"/>
+                            <constraint firstItem="1mJ-w9-q0p" firstAttribute="centerY" secondItem="XRz-lR-5wf" secondAttribute="centerY" id="dWu-ze-7kt"/>
                             <constraint firstItem="UBe-gM-KKJ" firstAttribute="centerX" secondItem="XRz-lR-5wf" secondAttribute="centerX" id="wv2-w9-gXn"/>
                         </constraints>
                     </view>
