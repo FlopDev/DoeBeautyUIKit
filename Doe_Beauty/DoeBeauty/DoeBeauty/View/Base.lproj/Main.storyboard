@@ -176,25 +176,15 @@ Que vous vouliez des ongles à capsule, ou un travail sur vos vrais ongles, je p
                                 <color key="textColor" red="0.19195035099999999" green="0.11312877389999999" blue="0.16075500849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="i5o-31-Rij">
-                                <rect key="frame" x="28" y="192.66666666666663" width="241" height="354"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5bH-rj-sre"/>
                         <color key="backgroundColor" red="0.90146869419999998" green="0.85164284710000004" blue="0.78831416369999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="i5o-31-Rij" firstAttribute="leading" secondItem="5bH-rj-sre" secondAttribute="leading" constant="28" id="1xn-zR-4VL"/>
                             <constraint firstItem="vbI-yG-0qY" firstAttribute="centerX" secondItem="ENG-84-hdq" secondAttribute="centerX" id="BTT-qd-AF4"/>
-                            <constraint firstItem="i5o-31-Rij" firstAttribute="centerX" secondItem="ENG-84-hdq" secondAttribute="centerX" id="F26-Qv-Wpi"/>
-                            <constraint firstItem="i5o-31-Rij" firstAttribute="height" secondItem="ENG-84-hdq" secondAttribute="height" multiplier="0.479026" id="N6D-zX-eng"/>
-                            <constraint firstItem="i5o-31-Rij" firstAttribute="centerY" secondItem="ENG-84-hdq" secondAttribute="centerY" id="TMu-Hd-ymR"/>
                             <constraint firstItem="vbI-yG-0qY" firstAttribute="top" secondItem="5bH-rj-sre" secondAttribute="top" constant="34" id="dTd-VX-4C0"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="v7a-Bd-LWs"/>
-                    <connections>
-                        <outlet property="imageView" destination="i5o-31-Rij" id="7UQ-Va-E33"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xNh-hE-Fyj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -345,8 +335,8 @@ Que vous vouliez des ongles à capsule, ou un travail sur vos vrais ongles, je p
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pour me contacter :" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPj-yF-fLT">
-                                <rect key="frame" x="16" y="234.33333333333334" width="149.66666666666666" height="18"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <rect key="frame" x="16" y="232" width="149.66666666666666" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.23519515990000001" green="0.1678184569" blue="0.2313264012" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>

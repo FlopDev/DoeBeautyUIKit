@@ -30,7 +30,7 @@ class MainPageViewController: UIViewController {
         // Ajoutez le geste de tap
         tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
         backViewHamburgerView.addGestureRecognizer(tapGestureRecognizer)
-                
+        
         
         // Ajoutez le geste à votre vue du menu
         burgerMainView.addGestureRecognizer(swipeGestureRecognizer)
@@ -47,20 +47,20 @@ class MainPageViewController: UIViewController {
     
     // Fonction appelée lorsque le balayage est détecté
     @objc func handleSwipe(_ sender: UISwipeGestureRecognizer) {
-            if sender.direction == .left {
-                // Code pour faire disparaître la vue du menu
-                UIView.animate(withDuration: 0.4, delay: 0, options: .curveEaseOut, animations: {
-                    self.leadingHamburgerView.constant = -300
-                    self.view.layoutIfNeeded()
-                })
-            }
+        if sender.direction == .left {
+            // Code pour faire disparaître la vue du menu
+            UIView.animate(withDuration: 0.4, delay: 0, options: .curveEaseOut, animations: {
+                self.leadingHamburgerView.constant = -300
+                self.view.layoutIfNeeded()
+            })
         }
+    }
     
     @objc func handleTap(_ sender: UITapGestureRecognizer) {
-            // Code pour gérer le tap sur la vue
+        // Code pour gérer le tap sur la vue
         UIView.animate(withDuration: 0.4, delay: 0, options: .curveEaseOut, animations: {
             self.leadingHamburgerView.constant = -300
             self.view.layoutIfNeeded()
         })
-        }
+    }
 }

@@ -1,52 +1,77 @@
-//
-//  GalleryViewController.swift
-//  DoeBeauty
-//
-//  Created by Florian Peyrony on 16/08/2023.
-//
-
-import Foundation
 import UIKit
 
-class GalleryViewController: UIViewController {
-    @IBOutlet weak var imageView: UIImageView!
-
-
-    var imageNames: [String] = ["nail1", "nail2", "nail3","nail4", "nail5", "nail6", "nail7", "nail8"] // Noms de vos images
-    var currentImageIndex = 0
-    var currentPage: Int = 0
-
+class GalleryViewController: UIViewController, UIPageViewControllerDataSource {
+    
+    @IBOutlet var imageView: UIImageView!
+    
+    var imageNames: [String] = ["nail1", "nail2", "nail3", "nail4", "nail5", "nail6", "nail7", "nail8"]
+    var pageViewController: UIPageViewController!
+    var currentIndex: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        imageView.image = UIImage(named: imageNames[currentImageIndex])
-                
-                // Configurer le geste de balayage
-                let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(handleSwipe(_:)))
-                swipeLeft.direction = .left
-                view.addGestureRecognizer(swipeLeft)
-                
-                let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(handleSwipe(_:)))
-                swipeRight.direction = .right
-                view.addGestureRecognizer(swipeRight)
+        setupPageControl()
+        
+        pageViewController = UIPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
+        pageViewController.dataSource = self
+        
+        if let initialViewController = viewControllerAtIndex(currentIndex) {
+            pageViewController.setViewControllers([initialViewController], direction: .forward, animated: true, completion: nil)
+        }
+        
+        addChild(pageViewController)
+        view.addSubview(pageViewController.view)
+        pageViewController.didMove(toParent: self)
     }
     
-    @objc func handleSwipe(_ gesture: UISwipeGestureRecognizer) {
-          if gesture.direction == .left {
-              currentImageIndex += 1
-              if currentImageIndex >= imageNames.count {
-                  currentImageIndex = 0
-              }
-          } else if gesture.direction == .right {
-              currentImageIndex -= 1
-              if currentImageIndex < 0 {
-                  currentImageIndex = imageNames.count - 1
-              }
-          }
-          
-          imageView.image = UIImage(named: imageNames[currentImageIndex])
-      }
-
-    // Reste du code...
+    func viewControllerAtIndex(_ index: Int) -> UIViewController? {
+        if index >= 0 && index < imageNames.count {
+            let viewController = UIViewController()
+            let imageView = UIImageView(frame: viewController.view.bounds)
+            imageView.contentMode = .scaleAspectFit
+            imageView.clipsToBounds = true
+            imageView.image = UIImage(named: imageNames[index])
+            viewController.view.tag = index
+            viewController.view.addSubview(imageView)
+            return viewController
+        }
+        return nil
+    }
+    
+    // MARK: - UIPageViewControllerDataSource
+    
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
+        if var index = (viewController as? UIViewController)?.view.tag, index > 0 {
+            /*currentIndex -= 1
+            index = currentIndex*/
+            return viewControllerAtIndex(index-1)
+        }
+        return nil
+    }
+    
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
+        if var index = (viewController as? UIViewController)?.view.tag, index < imageNames.count - 1 {
+            /*print(index)
+            currentIndex += 1
+            index = currentIndex*/
+            return viewControllerAtIndex(index+1)
+        }
+        return nil
+    }
+    
+    func presentationCount(for pageViewController: UIPageViewController) -> Int {
+        return imageNames.count
+    }
+    
+    func presentationIndex(for pageViewController: UIPageViewController) -> Int {
+        return currentIndex
+    }
+    
+    private func setupPageControl() {
+        let appearance = UIPageControl.appearance()
+        appearance.pageIndicatorTintColor = UIColor.darkGray
+        appearance.currentPageIndicatorTintColor = UIColor.red
+        appearance.backgroundColor = UIColor.black
+    }
 }
-

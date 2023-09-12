@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CB8452902A5F573800D78D29 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB84528F2A5F573800D78D29 /* MainPageViewController.swift */; };
-		CB8452922A5F6A3500D78D29 /* HamburgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8452912A5F6A3500D78D29 /* HamburgerViewController.swift */; };
-		CBA5B2A82A98EE2500E35154 /* ImagePageViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA5B2A72A98EE2500E35154 /* ImagePageViewViewController.swift */; };
 		CBC574E12A8D0E5A00F18DF2 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC574E02A8D0E5900F18DF2 /* AboutMeViewController.swift */; };
 		CBC574E32A8D131F00F18DF2 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC574E22A8D131F00F18DF2 /* GalleryViewController.swift */; };
 		CBC574E72A8D298B00F18DF2 /* ContactMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC574E62A8D298B00F18DF2 /* ContactMeViewController.swift */; };
@@ -43,8 +41,6 @@
 
 /* Begin PBXFileReference section */
 		CB84528F2A5F573800D78D29 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
-		CB8452912A5F6A3500D78D29 /* HamburgerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerViewController.swift; sourceTree = "<group>"; };
-		CBA5B2A72A98EE2500E35154 /* ImagePageViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePageViewViewController.swift; sourceTree = "<group>"; };
 		CBC574E02A8D0E5900F18DF2 /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
 		CBC574E22A8D131F00F18DF2 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		CBC574E62A8D298B00F18DF2 /* ContactMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactMeViewController.swift; sourceTree = "<group>"; };
@@ -157,11 +153,9 @@
 			isa = PBXGroup;
 			children = (
 				CB84528F2A5F573800D78D29 /* MainPageViewController.swift */,
-				CB8452912A5F6A3500D78D29 /* HamburgerViewController.swift */,
 				CBC574E02A8D0E5900F18DF2 /* AboutMeViewController.swift */,
-				CBC574E22A8D131F00F18DF2 /* GalleryViewController.swift */,
 				CBC574E62A8D298B00F18DF2 /* ContactMeViewController.swift */,
-				CBA5B2A72A98EE2500E35154 /* ImagePageViewViewController.swift */,
+				CBC574E22A8D131F00F18DF2 /* GalleryViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -312,10 +306,8 @@
 				CBC574E32A8D131F00F18DF2 /* GalleryViewController.swift in Sources */,
 				CBD6E7B02A54529300C3C602 /* DoeBeauty.xcdatamodeld in Sources */,
 				CBD6E7A62A54529300C3C602 /* AppDelegate.swift in Sources */,
-				CB8452922A5F6A3500D78D29 /* HamburgerViewController.swift in Sources */,
 				CBC574E72A8D298B00F18DF2 /* ContactMeViewController.swift in Sources */,
 				CBC574E12A8D0E5A00F18DF2 /* AboutMeViewController.swift in Sources */,
-				CBA5B2A82A98EE2500E35154 /* ImagePageViewViewController.swift in Sources */,
 				CBD6E7A82A54529300C3C602 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
