@@ -2,11 +2,14 @@ import UIKit
 
 class GalleryViewController: UIViewController, UIPageViewControllerDataSource {
     
+    @IBOutlet weak var brandLabel: UILabel!
     @IBOutlet var imageView: UIImageView!
     
     var imageNames: [String] = ["nail1", "nail2", "nail3", "nail4", "nail5", "nail6", "nail7", "nail8"]
     var pageViewController: UIPageViewController!
     var currentIndex: Int = 0
+    
+    var pageViewControllerHeightConstraint: NSLayoutConstraint!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +26,16 @@ class GalleryViewController: UIViewController, UIPageViewControllerDataSource {
         addChild(pageViewController)
         view.addSubview(pageViewController.view)
         pageViewController.didMove(toParent: self)
+        
+        pageViewController.view.translatesAutoresizingMaskIntoConstraints = false
+        pageViewControllerHeightConstraint = pageViewController.view.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.7) // multiplicateur taille
+        NSLayoutConstraint.activate([
+            pageViewController.view.topAnchor.constraint(equalTo: view.topAnchor, constant: 30), // décalage supérieur
+            pageViewController.view.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            pageViewController.view.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            pageViewControllerHeightConstraint
+        ])
+        
     }
     
     func viewControllerAtIndex(_ index: Int) -> UIViewController? {
@@ -38,13 +51,12 @@ class GalleryViewController: UIViewController, UIPageViewControllerDataSource {
         }
         return nil
     }
+
     
     // MARK: - UIPageViewControllerDataSource
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         if var index = (viewController as? UIViewController)?.view.tag, index > 0 {
-            /*currentIndex -= 1
-            index = currentIndex*/
             return viewControllerAtIndex(index-1)
         }
         return nil
@@ -52,9 +64,6 @@ class GalleryViewController: UIViewController, UIPageViewControllerDataSource {
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
         if var index = (viewController as? UIViewController)?.view.tag, index < imageNames.count - 1 {
-            /*print(index)
-            currentIndex += 1
-            index = currentIndex*/
             return viewControllerAtIndex(index+1)
         }
         return nil

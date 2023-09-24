@@ -185,6 +185,9 @@ Que vous vouliez des ongles à capsule, ou un travail sur vos vrais ongles, je p
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="v7a-Bd-LWs"/>
+                    <connections>
+                        <outlet property="brandLabel" destination="vbI-yG-0qY" id="g3S-sM-gJw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xNh-hE-Fyj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
